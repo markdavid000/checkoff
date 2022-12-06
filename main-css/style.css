@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.cl {
+  color: #fff;
+  background-color: #0017e2;
+}
+
+.ol {
+  font-size: 0.2rem;
+  font-weight: 600;
+  color: #fff !important;
+  margin-top: 0.1rem;
+  transition: all 0.3s;
+}
+
+.ol:hover {
+  color: #0017e2 !important;
+}
+
+.s {
+  font-size: 0.8rem;
+  background-color: #0017e2;
+  color: #fff !important;
+  border-radius: 5rem;
+  padding: 0.2rem 1rem;
+  margin: 0.5rem 0;
+  margin-right: 1rem;
+  transition: all 0.3s;
+  text-align: center;
+}
+.s:hover {
+  background-color: #121d81;
+}
+
+.sl {
+  color: #fff;
+  background-color: #2bff00;
+  border-radius: 5rem;
+  transition: all 0.3s;
+}
+.sl:hover {
+  color: #fff;
+  background-color: #009e08;
+}
+
+.sb {
+  color: #fff;
+  background-color: #121d81;
+}
+
+.sb:hover {
+  color: #fff;
+  background-color: #0017e2;
+}
+
+.bg-img {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(../img/bg\ img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.height {
+  min-height: 100vh;
+}
+
+.st {
+  font-weight: 500;
+}
+
+.carousel-indicators {
+  position: static;
+}
+
+.carousel-indicators li {
+  width: 0;
+  height: 0;
+  text-align: right !important;
+  margin: 0 2rem;
+  background-color: #0017e2;
+}
+
+.carousel-indicators .active {
+  background-color: #0017e2 !important;
+  color: #0017e2;
+  font-weight: 900;
+}
+
+.ci {
+  color: #e20000;
+  font-weight: 400;
+}
+
+.fg {
+  border-radius: 5rem !important;
+}
+
+.s-1 {
+  color: #0017e2;
+}
+
+.s-1:hover {
+  color: #121d81;
+}
+
+.img {
+  height: 15rem;
+}
